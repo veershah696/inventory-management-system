@@ -1,36 +1,66 @@
-# @eslint-community/eslint-utils
+# 📦 Inventory Management System
 
-[![npm version](https://img.shields.io/npm/v/@eslint-community/eslint-utils.svg)](https://www.npmjs.com/package/@eslint-community/eslint-utils)
-[![Downloads/month](https://img.shields.io/npm/dm/@eslint-community/eslint-utils.svg)](http://www.npmtrends.com/@eslint-community/eslint-utils)
-[![Build Status](https://github.com/eslint-community/eslint-utils/workflows/CI/badge.svg)](https://github.com/eslint-community/eslint-utils/actions)
-[![Coverage Status](https://codecov.io/gh/eslint-community/eslint-utils/branch/main/graph/badge.svg)](https://codecov.io/gh/eslint-community/eslint-utils)
+An **Inventory Management System** is a software application designed to efficiently manage and track products, stock levels, suppliers, sales, and inventory transactions. It helps businesses maintain accurate stock records, reduce manual work, and monitor inventory in real time.
 
-## 🏁 Goal
+## 🚀 Features
 
-This package provides utility functions and classes for make ESLint custom rules.
+* 📊 **Dashboard** – View total products, available stock, sales, and inventory statistics.
+* 📦 **Product Management** – Add, update, delete, and view product details.
+* 🏷️ **Category Management** – Organize products into different categories.
+* 📈 **Stock Management** – Track stock availability and inventory levels.
+* ⚠️ **Low Stock Alerts** – Identify products that need restocking.
+* 🛒 **Sales Management** – Record and manage product sales.
+* 🚚 **Supplier Management** – Store and manage supplier information.
+* 🔍 **Search & Filter** – Quickly find products and inventory records.
+* 📝 **Transaction History** – Track stock-in and stock-out transactions.
+* 🔐 **User Authentication** – Secure login and user access.
+* 📱 **Responsive UI** – Works on desktop, tablet, and mobile screens.
+* 📊 **Reports** – Generate useful inventory and sales reports.
 
-For examples:
+## 🛠️ Languages & Technologies
 
--   [`getStaticValue`](https://eslint-community.github.io/eslint-utils/api/ast-utils.html#getstaticvalue) evaluates static value on AST.
--   [`ReferenceTracker`](https://eslint-community.github.io/eslint-utils/api/scope-utils.html#referencetracker-class) checks the members of modules/globals as handling assignments and destructuring.
+### Frontend
 
-## 📖 Usage
+* HTML5
+* CSS3
+* JavaScript
+* Bootstrap
 
-See [documentation](https://eslint-community.github.io/eslint-utils).
+### Backend
 
-## 📰 Changelog
+* Python
+* Flask
 
-See [releases](https://github.com/eslint-community/eslint-utils/releases).
+### Database
 
-## ❤️ Contributing
+* MySQL
 
-Welcome contributing!
+### Tools
 
-Please use GitHub's Issues/PRs.
+* VS Code
+* Git & GitHub
 
-### Development Tools
+## 📂 Main Modules
 
--   `npm run test-coverage` runs tests and measures coverage.
+1. **Login / Authentication**
+2. **Dashboard**
+3. **Product Management**
+4. **Category Management**
+5. **Supplier Management**
+6. **Stock Management**
+7. **Sales Management**
+8. **Inventory Transactions**
+9. **Reports**
+10. **User Management**
+
+## 🎯 Objective
+
+The main objective of this project is to provide a **simple, efficient, and user-friendly inventory management solution** that helps businesses keep track of their products and stock while reducing errors caused by manual inventory management.
+
+## 👨‍💻 Author
+
+**Veer Shah**
+
 -   `npm run clean` removes the coverage result of `npm run test-coverage` command.
 -   `npm run coverage` shows the coverage result of the last `npm run test-coverage` command.
 -   `npm run lint` runs ESLint.
